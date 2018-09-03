@@ -24,7 +24,7 @@ function iLoveTheBeatles(number) {
   const earray = []
   do {
     number++;
-    earray.pop("I love the Beatles!");
+    earray.push("I love the Beatles!");
   } while(number < 15);
   return earray;
   
